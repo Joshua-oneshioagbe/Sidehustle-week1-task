@@ -1,0 +1,203 @@
+@import url('http://fonts.cdnfonts.com/css/poppins');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    /* padding: 10px; */
+    width: 100%;
+    background-color: #fcfcfc;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.left-container {
+    background: url(./halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: 500px;
+    height: 100vh;
+    width: 30%;
+}
+
+img {
+    width: 50px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+.img-bg {
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-top: 160px;
+    height: 90px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Norse-Bold;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./Norse-Bold.otf);
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+    padding-bottom: 30px;
+}
+
+.right-header {
+    padding-top: 100px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    gap: 50px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.form-content {
+    background-color: #ffffff;
+    box-shadow: 1px 3px 5px #e9e8e8;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.input-border {
+    font-family: 'poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 5px 20px;
+}
+
+.input-border:focus {
+    border: none;
+    outline: 1px solid #9eb8ed;
+    box-shadow: 1px 2px 5px #f1f1f1;
+    padding: 5px 20px;
+}
+
+.label-font {
+    font-family: 'poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.Formline-1 {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 10px;
+}
+
+.Formline-2 {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 10px;
+}
+
+.Formline-3 {
+    display: flex;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.btn {
+    background-color: #596D48;
+    color: #ffffff;
+    border: 0px;
+    font-family: 'poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span {
+    color: #596D48;
+    font-family: 'poppins', sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+}
+
+.acct-font {
+    font-family: 'poppins', sans-serif;
+    margin-top: 10px;
+    font-size: 9px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        gap: 10px;
+        width: 100%;
+    }
+    .left-container {
+        background: url(./halie-west-25xggax4bSA-unsplash.jpg);
+        background-size: 500px;
+        height: 120vh;
+        padding-right: 30px;
+        width: 30%;
+    }
+    img {
+        width: 30px;
+        height: 50px;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .img-bg {
+        display: flex;
+        background-color: rgb(0, 0, 0, 0.5);
+        margin-top: 160px;
+        width: 180px;
+        height: 90px;
+    }
+    h1 {
+        color: #ffffff;
+        font-family: Norse-Bold;
+        font-size: 40px;
+        margin-top: 30px;
+        padding-right: 20px;
+    }
+    .right-header {
+        padding-top: 100px;
+        font-family: 'poppins', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        width: 90%;
+        gap: 50px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+    .form-content {
+        background-color: #ffffff;
+        box-shadow: 1px 3px 5px #e9e8e8;
+        display: flex;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-family: 'poppins', sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+    }
+}
